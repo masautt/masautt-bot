@@ -1,0 +1,27 @@
+{
+  "name": "masautt-bot",
+  "version": "1.0.0",
+  "description": "Facebook messenger bot for masautt.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masautt/masautt-bot.git"
+  },
+  "author": "Marek Sautter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/masautt/masautt-bot/issues"
+  },
+  "homepage": "https://github.com/masautt/masautt-bot#readme",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "node-env-run": "^3.0.2"
+  }
+}

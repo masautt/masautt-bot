@@ -1,0 +1,27 @@
+{
+    "attachment": {
+        "type": "template",
+        "payload": {
+            "template_type": "generic",
+            "elements": [
+                {
+                    "title": "First American",
+                    "subtitle": "Which would you like to hear more about?",
+                    "image_url": "https://i.imgur.com/Ape4xlj.jpg",
+                    "buttons": [
+                        {
+                            "type": "postback",
+                            "title": "Title Insurance",
+                            "payload": "Payload for first element in a generic bubble"
+                        },
+                        {
+                            "type": "postback",
+                            "title": "Lender Solutions",
+                            "payload": "Payload for first element in a generic bubble"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "attachment": {
+        "type": "template",
+        "payload": {
+            "template_type": "generic",
+            "elements": [
+                {
+                    "title": "First American",
+                    "subtitle": "FAQ Bot for First American",
+                    "image_url": "https://cdn1.expertinsurancereviews.com/wp-content/uploads/2014/03/firstamerican300.jpg",
+                    "buttons": [
+                        {
+                            "type": "web_url",
+                            "url": "https://www.firstam.com/index.html",
+                            "title": "Visit First American"
+                        },
+                        {
+                            "type": "postback",
+                            "title": "Start FA Bot",
+                            "payload": "Payload for first element in a generic bubble",
+                        }
+                    ]
+                },
+                {
+                    "title": "CSUF EIP",
+                    "subtitle": "Extension and International Program",
+                    "image_url": "https://yt3.ggpht.com/a-/AN66SAztfzctcNYtjICgXh_iJyylsdq90f0Z3MSCTA=s900-mo-c-c0xffffffff-rj-k-no",
+                    "buttons": [
+                        {
+                            "type": "web_url",
+                            "url": "http://extension.fullerton.edu/",
+                            "title": "Visit EIP"
+                        },
+                        {
+                            "type": "postback",
+                            "title": "Start EIP Bot",
+                            "payload": "Payload for first element in a generic bubble",
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
